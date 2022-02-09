@@ -14,15 +14,13 @@ export default function AboutMe(props){
 
     const SCREEN_CONSTSANTS = {
         description:
-          "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+          "I am a student of computer science with a specialization in computer graphic at the Cracow University of Technology. I have experience in designing websites, web or mobile application. I am interested in photography and I have experience with Photoshop I would like to undertake an internship or work as UX/UI Designer or Frontend Developer.",
         highlights: {
           bullets: [
-            "Full Stack web and mobile development",
-            "Interactive Front End as per the design",
-            "React and React Native",
-            "Redux for State Mnanagement",
-            "Building REST API",
-            "Managing database",
+            "Junior UX/UI Designer",
+            "Junior Tools Developer",
+            "Business Analyst",
+            "Photographer",
           ],
           heading: "Here are a Few Highlights:",
         },

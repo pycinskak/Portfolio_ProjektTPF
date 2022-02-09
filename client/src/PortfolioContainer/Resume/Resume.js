@@ -48,63 +48,62 @@ export default function Resume(props) {
     ];
 
     const programmingSkillsDetails = [
-        { skill: "JavaScript", ratingPercentage: 85 },
-        { skill: "React JS", ratingPercentage: 85 },
-        { skill: "React Native", ratingPercentage: 85 },
-        { skill: "Express JS", ratingPercentage: 89 },
-        { skill: "Node JS", ratingPercentage: 89 },
-        { skill: "Mongo Db", ratingPercentage: 70 },
-        { skill: "Core Java", ratingPercentage: 80 },
-        { skill: "HTML", ratingPercentage: 80 },
-        { skill: "CSS", ratingPercentage: 80 },
+        { skill: "HTML", ratingPercentage: 85 },
+        { skill: "CSS", ratingPercentage: 85 },
+        { skill: "Photoshop", ratingPercentage: 85 },
+        { skill: "Figma", ratingPercentage: 89 },
+        { skill: "AdobeXd", ratingPercentage: 89 },
+        { skill: "JavaScript", ratingPercentage: 70 },
+        { skill: "Illustrator", ratingPercentage: 80 },
+        { skill: "iMovie", ratingPercentage: 80 },
     ];
 
     const projectsDetails = [
         {
           title: "Personal Portfolio Website",
-          duration: { fromDate: "2020", toDate: "2021" },
+          duration: { fromDate: "2021", toDate: "2022" },
           description:
             "A Personal Portfolio website to showcase all my details and projects at one place.",
           subHeading: "Technologies Used: React JS, Bootsrap",
         },
         {
-          title: "Mobile E-shop ",
+          title: "Mobile application for photographers",
           duration: { fromDate: "2020", toDate: "2021" },
           description:
-            "An ecommerce application designed to sell products online wth payment system integration",
+            "Engineering work written in Java and XML, using Android Studio, Firebase, Photoshop and Illustrator",
           subHeading:
-            "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+            "Technologies Used: Java, XML",
         },
         {
-          title: "Ecommerce Website ",
-          duration: { fromDate: "2020", toDate: "2021" },
+          title: "Redesign Website Crighlist",
+          duration: { fromDate: "2021", toDate: "2022" },
           description:
-            "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+            "Redesign Website for shopping and for using the forum",
           subHeading:
-            "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+            "Figma",
         },
       ];
 
       const resumeDetails = [
         <div className="resume-screen-container" key="education">
           <ResumeHeading
-            heading={"University of Legon Accra, Ghana"}
-            subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-            fromDate={"2014"}
-            toDate={"2018"}
+            heading={"Cracow University of Technology, Computer Science"}
+            subHeading={"Bachelor of Computer Science"}
+            fromDate={"2017"}
+            toDate={"2020"}
           />
     
           <ResumeHeading
-            heading={"National Youth Service Corps"}
-            subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
-            fromDate={"2019"}
-            toDate={"2020"}
+            heading={"Cracow University of technology"}
+            subHeading={"Computer Science - Computer Graphic and Multimedia, master's degree"}
+            fromDate={"2020"}
+            toDate={"now"}
           />
           <ResumeHeading
-            heading={"High School "}
-            subHeading={"Command Secondary School Mbiri"}
-            fromDate={"2007"}
-            toDate={"2012"}
+            heading={"Academy of Photography"}
+            subHeading={"Photography course certificate"}
+            fromDate={"2015"}
+            toDate={"now"}
           />
         </div>,
     
@@ -112,31 +111,27 @@ export default function Resume(props) {
         <div className="resume-screen-container" key="work-experience">
           <div className="experience-container">
             <ResumeHeading
-              heading={"Ehizeex Technoloy"}
-              subHeading={"FULL STACK DEVELOPER INTERN"}
-              fromDate={"2021"}
-              toDate={"Present"}
+              heading={"Capgemini"}
+              subHeading={"Junior Tools Developer"}
+              fromDate={"2020"}
+              toDate={"Now"}
             />
             <div className="experience-description">
               <span className="resume-description-text">
-                Currently working as MERN stack web and mobile developer and also an
-                online instructor on udemy.
+              SKI Jumping Applications for Polish National Ski Jumpers - research and test new libraries, assist developers, learn the codebase and improve coding skills, 
               </span>
             </div>
             <div className="experience-description">
               <span className="resume-description-text">
-                - Developed an ecommerce website for client with the dashboard for
-                managing the products, managing reviews, users, payment etc. .
+              Application software testing, analysis and reporting of result.
               </span>
               <br />
               <span className="resume-description-text">
-                - Integrated the web app with backend services to create new user
-                onboarding application with dynamic form content.{" "}
+              Creating report in Excel on the basic of which the forecast is made,{" "}
               </span>
               <br />
               <span className="resume-description-text">
-                - I stretch my mental capacity to develope UI as per the given
-                designs.
+              Service automation Google Workspace, writing Scripts in AppScript that used Google Workspace (forms. sheets, mailbox, etc.)
               </span>
               <br />
             </div>

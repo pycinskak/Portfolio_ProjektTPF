@@ -10,17 +10,11 @@ export default function Profile() {
                 <div className='profile-details'>
                     <div className='colz'>
                         <div className='colz-icon'>
-                            <a href='#'>
+                            <a href='https://www.facebook.com/kasiapycinska/'>
                                 <i className='fa fa-facebook-square'></i>
                             </a>
-                            <a href='#'>
-                                <i className='fa fa-google-plus-square'></i>
-                            </a>
-                            <a href='#'>
+                            <a href='https://www.instagram.com/kasiapycinska/'>
                                 <i className='fa fa-instagram'></i>
-                            </a>
-                            <a href='#'>
-                                <i className='fa fa-youtube-square'></i>
                             </a>
                             <a href='#'>
                                 <i className='fa fa-twitter'></i>
@@ -42,11 +36,11 @@ export default function Profile() {
                                 <Typical
                                 loop={Infinity}
                                 steps={[
-                                    "UX/UI Designer ",
+                                    "UX/UI Designer 💻 ",
                                     1000,
-                                    "Tools Developer",
+                                    "Tools Developer 🔨",
                                     1000,
-                                    "Business Analyst",
+                                    "Business Analyst 📱",
                                     1000,
                                     "Photographer 📸",
                                     1000
